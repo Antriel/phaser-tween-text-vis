@@ -1,0 +1,17 @@
+{
+  "name": "text-tween-visualization",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Peter Achberger",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "npx esbuild src/main.js --bundle --outfile=bundle.js --servedir=. --serve=3100",
+    "build": "npx esbuild src/main.js --bundle --outfile=bundle.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.15",
+    "phaser": "^3.55.2",
+    "tosource": "^2.0.0-alpha.3"
+  }
+}
